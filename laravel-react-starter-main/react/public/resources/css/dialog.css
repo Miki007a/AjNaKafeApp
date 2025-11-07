@@ -1,0 +1,15 @@
+.btn-submit-dialog{
+    display: block;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: 1px solid white !important;
+    display: block !important;
+    color: white !important;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.btn-submit-dialog:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}

@@ -1,0 +1,96 @@
+
+th {
+    border-bottom: 1px solid grey;
+}
+
+td {
+    text-align: center;
+    color: grey;
+}
+
+.page {
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    border: 2px solid rgb(209, 225, 250);
+    padding-bottom: 50px;
+}
+
+.links {
+    font-size: 15px;
+    color: rgb(87, 154, 221);
+}
+
+.bio {
+    color: grey;
+    /* font-size: 18px; */
+}
+
+.fa {
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.fa-twitter,
+.fa-linkedin {
+    color: white;
+    background-color: rgb(39, 138, 204);
+    border-radius: 100%;
+}
+
+.fa-facebook {
+    color: rgb(39, 138, 204);
+}
+
+.container {
+    text-align: center;
+}
+
+.main-container {
+    text-align: center;
+    margin-bottom: 2%;
+
+    background: rgb(239,16,16);
+    background: linear-gradient(90deg, rgba(239,16,16,1) 0%, rgba(150,75,0,1) 100%);
+}
+
+.bottom-container {
+    margin: auto;
+}
+
+.first {
+    width: 35%;
+}
+
+.container-fluid {
+    margin-top: 2rem;
+}
+
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(87, 154, 221);
+    text-align: center;
+    cursor: pointer;
+    width: 15%;
+    margin-top: 5%;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    background-color: blue;
+    opacity: 0.7;
+}

@@ -1,0 +1,12 @@
+a {
+    display: block;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: white;
+    border-radius: 8px;
+}
+
+a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}

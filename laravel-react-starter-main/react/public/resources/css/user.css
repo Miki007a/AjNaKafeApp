@@ -1,0 +1,92 @@
+.background{
+ opacity: 0.95;
+    border-radius: 10px;
+    padding:20px;
+box-shadow: black 0 5px 5px;
+}
+.custom-width{
+    width: 400px !important;
+    height: 500px !important;
+    max-width: 100%;
+}
+.profile-pictures-section {
+    text-align: center;
+}
+
+#imageUpload {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    max-width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.gallery .image-wrapper {
+    position: relative;
+}
+
+.delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50%;
+}
+.btn-primary {
+    background: #f5deb3 !important;
+   opacity:1 !important;
+    color: black !important;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #f5deb3;
+    --bs-btn-hover-border-color:none;
+    box-shadow: 0 3px #f5deb3;
+}
+.btn-primary:hover {
+    background: #f5deb3; /* Gold background on hover */
+    color: #333; /* Darker text on hover for contrast */
+    box-shadow: 0 3px #ccc; /* Softer shadow on hover */
+}
+input:focus{
+    box-shadow:0 3px #f5deb3!important;
+    border: 1px solid #f5deb3 !important;
+}
+select:focus{
+    box-shadow:0 3px #f5deb3!important;
+    border: 1px solid #f5deb3 !important;
+}
+.react-datepicker-popper{
+    z-index: 10000000 !important;
+}
+.btn-submit{
+    display: block;
+    text-decoration: none;
+    transition: all 0.2s;
+    border-radius: 8px;
+    background-color: lightgreen;
+    color: black;
+    text-align: center;
+
+}
+
+.btn-submit:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-3px);
+}
+.img-fluid{
+    width: 100%; !important; /* Ensures the image takes the full width of the parent */
+    height: 100%; !important; /* Ensures the image takes the full height of the parent */
+
+}
